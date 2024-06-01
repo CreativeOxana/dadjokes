@@ -11,21 +11,6 @@ html {
   margin: 5rem auto;
 }
 
-.joke {
-  margin-bottom: 2rem;
-}
-
-.joke__body {
-  display: flex;
-}
-
-.joke__user {
-  flex: 0 0 auto;
-  width: 5rem;
-  height: 5rem;
-  margin-right: 1rem;
-}
-
 .user-avatar {
   width: 5rem;
   height: 5rem;
@@ -34,22 +19,6 @@ html {
 .user-name {
   margin-top: 0.5rem;
   text-align: center;
-}
-
-.joke__text {
-  background-color: cornflowerblue;
-  color: white;
-  border-radius: 1rem;
-  padding: 1.5rem 2rem;
-  margin: 0;
-  line-height: 150%;
-}
-
-.joke__likes {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 1rem;
 }
 
 .likes-count {
@@ -80,10 +49,10 @@ html {
 
 .btn-like--up {
   background-color: #00e268;
-  background-image: url('img/like-up.png');
+  background-image: url('/img/like-up.png');
 }
 
 .btn-like--down {
   background-color: #ff5654;
-  background-image: url('img/like-down.png');
+  background-image: url('/img/like-down.png');
 }
