@@ -1,6 +1,5 @@
 import React from 'react';
 import { Joke } from '../../components/Joke';
-import './style.css';
 
 const api = await fetch('http://localhost:4002/api/jokes');
 const response = await api.json();
